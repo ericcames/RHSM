@@ -5,3 +5,6 @@
 
 **Login in to:**  
 - [Red Hat Customer Portal](https://access.redhat.com/management/ "Red Hat Customer Portal")
+
+**Register servers with RHSM**  
+- [Red Hat Subscription Management (RHSM) ansible playbook](https://github.com/ericcames/RHSM/blob/main/rhsmregistration.yml "RHSM ansible playbook")

@@ -3,7 +3,7 @@
   hosts: all
   become: yes
   gather_facts: yes
-  # This playbook requires usnername and password to be input at runtime
+  # This playbook requires username and password to be input at runtime
   # You can do this with a Survey in the AAP GUI
   # The username and password are the credentials for access.redhat.com
   vars:

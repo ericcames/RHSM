@@ -7,4 +7,5 @@
 - [Red Hat Customer Portal](https://access.redhat.com/management/ "Red Hat Customer Portal")
 
 **Register servers with RHSM**  
-- [Red Hat Subscription Management (RHSM) ansible playbook](https://github.com/ericcames/RHSM/blob/main/rhsmregistration.yml "RHSM ansible playbook")
+- [Red Hat Subscription Management (RHSM) ansible playbook](https://github.com/ericcames/RHSM/blob/main/rhsmregistration.yml "RHSM ansible playbook")  
+- This playbook requires a username and password to be input at runtime.  This can be done using a survey via the Anisble Automation Platform web interface.  The credentials are the credentials used for access to access.redhat.com.

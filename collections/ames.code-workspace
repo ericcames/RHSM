@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../AnsibleAutomationPlatform"
+		},
+		{
+			"name": "RHEL7-CIS",
+			"path": "../../RHEL7-CIS"
+		},
+		{
+			"name": "RedHatInsights",
+			"path": "../../RedHatInsights/RedHatInsights"
+		},
+		{
+			"name": "RHSM",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}

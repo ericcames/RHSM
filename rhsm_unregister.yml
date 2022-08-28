@@ -12,7 +12,7 @@
     
   tasks:
   
-  - name: Register and subscribe the system 
+  - name: UN-Register and subscribe the system 
     community.general.redhat_subscription:
       username: "{{ username }}"
       password: "{{ password }}"

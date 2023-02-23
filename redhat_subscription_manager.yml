@@ -1,6 +1,6 @@
 ---
 - name: Registering system with Red Hat Subscription Management
-  hosts: all
+  hosts: "{{ my_server }}"
   gather_facts: no
   # This playbook requires username and password to be input at runtime
   # You can do this with a Survey in the AAP GUI

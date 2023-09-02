@@ -11,7 +11,7 @@
     status: "{{ status }}"
     
   tasks:
-  
+
     # Gather the start time to use in a later playbook
     - name: Record the subscription_time
       delegate_to: 127.0.0.1
@@ -24,8 +24,8 @@
       ansible.builtin.set_stats:
         data:
           subscription_time: "{{ subscription_time_pre.stdout }}"
-  
-    - name: Register and subscribe the system 
+
+    - name: Register and subscribe the system
       community.general.redhat_subscription:
         username: "{{ username }}"
         password: "{{ password }}"
